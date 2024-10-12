@@ -1,0 +1,390 @@
+
+@media screen and (max-width:1300px) {
+
+    .bio_img {
+        height: 230px;
+        width: 230px;
+    }
+    
+    
+    .what_I_do {
+        position: relative;
+        width: 65rem;
+        margin: auto;
+        height: auto;
+    }
+    div.testimonials {
+        height: 20rem;
+        width: 65rem;
+        padding-bottom: 3rem;
+    }
+    .biography {
+        height: 35rem;
+        width: 65rem;
+        position: relative;
+        display: flex;
+    }
+    .cards {
+        border-radius: 10px;
+        width: 33.33%;
+        background-color: white;
+    }
+    .education{
+        width: 65rem
+    }
+    .portfolio-container{
+        width: 65rem;
+    }
+    .blog-container {
+        width: 65rem;
+    }
+    .food-container{
+        width: 65rem;
+    }
+
+}
+@media screen and (max-width:1170px){
+    .homeBackground{
+      width: 75%;
+      opacity: 0.5;
+      z-index: -1;
+      background-position: 0 0
+    }
+    nav{
+      z-index: -1;
+    }
+    .box{
+      margin: auto 0 auto 2rem;
+    }
+    .biography {
+        width: 52rem;
+    }
+    .what_I_do {
+        width: 52rem;
+    }
+    .education {
+        width: 52rem;
+      }
+      .portfolio-container {
+        width: 52rem;
+      }
+      .blog-container {
+        width: 52rem;
+      }
+      .footer-container {
+        width: 52rem;
+      }
+      .fullName {
+        width: 99%;
+        margin-right: 1.5%;
+      }
+      div.testimonials {
+        height: 22rem;
+        width: 52rem;
+        padding-bottom: 3rem;
+      }
+      .email {
+        width: 99%;
+        margin-right: 1.5%;
+      }
+      .education {
+        height: 43rem;
+      }
+      .blog-container{
+        height: 52rem;
+      }
+    
+}
+@media screen and (max-width:970px){
+    .bio_img {
+        height: 300px;
+        width: 300px;
+    }
+    .box_container{
+      width: 100%;
+    }
+    div.testimonials {
+        height: 17rem;
+        width: 43rem;
+        padding-bottom: 3rem;
+      }
+    .biography {
+        width: 43rem;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+    .bio_images{
+        margin-right: unset;
+    }
+    .bio_info{
+        padding: unset;
+    }
+    .what_I_do {
+        width: 43rem;
+    }
+    .education {
+        width: 43rem;
+      }
+      .portfolio-container {
+        width: 43rem;
+      }
+      .blog-container {
+        width: 43rem;
+        height: auto;
+      }
+      .footer-container {
+        width: 43rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .yourStory {
+        width: 100%;
+      }
+      .fullName,.email{
+        width: 48.5%;
+        margin: unset;
+        margin-bottom: 1.5rem;
+      }
+      .fullName{
+        margin-right:3px
+      }
+      .subject,.comment{
+        margin-bottom: 1.5rem;
+      }
+      .comment{
+        width: 98.5%;
+      }
+
+      .form{
+        width: 100%;
+      }
+    .what_I_do {
+        width: 43rem;
+    }
+    .portfolio-img{
+      gap: 1rem;
+    }
+
+    .cardBox {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 47% 47%;
+         
+      }
+      .cards{
+        width: 100%;
+      }
+      .profiles {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem;
+      }
+      .profile{
+       padding: unset;
+       padding: 1rem 0;
+        width: 100%;
+        height: 9rem;
+      }
+      .profile:nth-child(2){
+        display: none;
+      }
+      .education {
+        height: auto;
+        padding-bottom: 1rem;
+      }
+      .education-section{
+        flex-direction: column;
+      }
+      .education-skills {
+        width: 100%;
+      }
+      .skill-wrapper {
+        margin-top: 4rem;
+        margin-left: 0;
+      }
+      .blog-box{
+        height: 90%;
+        row-gap: 2.5rem;
+      }
+      footer{
+        height: auto;
+      }
+      .col-grid {
+        flex-basis: 48.33%;
+      }
+      .col-grid img{
+        object-fit: contain;
+      }
+      .portfolio-img .col-grid:nth-child(3){
+        width: 100%;
+        flex-basis: unset;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+
+      }
+      .portfolio-img .col-grid:nth-child(3)>div{
+        width: 48.33%;
+        margin: unset;
+        height: fit-content;
+
+      }
+}
+@media screen and (max-width:800px){
+  .toStart{
+    display:none;
+  }
+    .blog-box{
+        display: flex;
+        flex-direction: column;
+      }
+      .toggle,.toggleOff{
+        display: flex;
+      }
+      .box>*{
+        margin-left:6.5vw ;
+      }
+      .home{
+        height: 100vh;
+      }
+      .box h1{
+        font-size: 40px;
+      }
+      .box>div>span{
+        font-size: 25px;
+      }
+      .homeBackground{
+        background-position: 0 0;
+        right: 0;
+        width:calc(100% - 4.8rem);
+      }
+      
+    .sidebar{
+        left: -100px;
+        z-index: 6;
+        transition: all 0.3s ease-in-out;
+        border-right: 1px solid rgb(196, 194, 194);
+    }
+    .main{
+        margin: unset;
+    }
+    .main{
+        width:100%;
+    }
+    div.testimonials,.biography,.what_I_do,.footer-container,.education,.portfolio-container,
+    .blog-container{
+            width: 33rem;
+    }
+    .fullName,.email{
+        width: 99%;
+        margin: unset;
+        margin-bottom: 1.5rem;
+    }
+    .cardBox {
+        gap: 1.5rem;
+        grid-template-columns: 100%;
+      }
+    .blog-box{
+        grid-template-columns: 100%;
+    }
+    .portfolio-info span {
+        line-height: 1.7;
+        font-size: 11px;
+        color: white;
+      }
+      .portfolio-info h5{
+        font-size: 12px;
+      }
+      div.testimonials {
+        height: auto;
+      }
+      .profile{
+        height: auto;
+      }
+}
+@media screen and (max-width:600px){
+    div.testimonials,.biography,.what_I_do,.footer-container,.education,.portfolio-container,
+    .blog-container,.box{
+      width: 95%
+    }
+    .col-grid>div {
+      margin: auto;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+  }
+    .body{
+      overflow-x: unset;
+    }
+    .bio_img {
+        height: 70%;
+        width: 70%;
+    }
+    nav{
+      display: none;
+    }
+   
+    .portfolio-img{
+      all: unset;
+      padding-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;  
+    }
+    .col-grid{
+      flex-basis: 48%; 
+      gap: 1rem; 
+    }
+  .portfolio-img .col-grid:nth-child(3){
+    all: unset;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+  }
+  .portfolio-img .col-grid:nth-child(3) div{
+    flex-basis: 48%;
+    align-self: flex-start;
+    justify-self:flex-start;
+    margin: 0 auto;
+    height: fit-content;
+    justify-self: center;
+    margin: unset;
+  }
+}
+@media screen and (max-width:570px){
+  .col-grid{
+    width: 98%;
+    height: fit-content;   
+  }
+  .col-grid>div>img{
+    width: 100%;
+    height: 100%;  
+    object-fit: contain; 
+  }
+  .col-grid>div{
+    padding-bottom: 1.5rem;
+  }
+  .portfolio-bar{
+    padding-bottom: 1.5rem;
+  }
+  .portfolio-img{
+    padding-top:unset;
+    display:unset;
+  }
+  .portfolio-img .col-grid:nth-child(3) div{
+    flex-basis: 100%;
+  }
+  .footer-info>ul li i {
+    font-size: 18px;
+  }
+  
+  .footer-info>ul li {
+    font-size: 16px;
+  }
+ 
+  }
+
